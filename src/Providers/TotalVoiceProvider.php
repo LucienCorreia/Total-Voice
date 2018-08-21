@@ -13,7 +13,7 @@ class TotalVoiceProvider extends ServiceProvider {
      */
     public function boot() {
         $this->publishes([
-            __DIR__ . '../config/totalvoice.php' => config_path('totalvoice.php'),
+            __DIR__ . '/../config/totalvoice.php' => config_path('totalvoice.php'),
         ]);
     }
 
