@@ -7,8 +7,7 @@ use GuzzleHttp\Client;
 
 class Sender extends TotalVoice {
 	
-	protected static $uri = '/sms';
-	protected static $apiMethod = 'POST';
+	protected $uri = '/sms';
 
 	protected $message;
 	protected $phone;
