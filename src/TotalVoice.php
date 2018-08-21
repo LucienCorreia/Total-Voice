@@ -4,9 +4,9 @@ namespace TotalVoice;
 
 class TotalVoice {
 	protected static $endpoint = 'https://api.totalvoice.com.br';
-	protected $token;
+	protected static $token;
 
 	public function __construct() {
-		$this->token = config('totalvoice.token');
+		self::$token = config('totalvoice.token');
 	}
 }
