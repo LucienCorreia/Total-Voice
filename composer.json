@@ -21,7 +21,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"TotalVoice\\Providers\\TotoalVoiceProvider"
+				"TotalVoice\\Providers\\TotalVoiceProvider"
 			]
 		}
 	}
