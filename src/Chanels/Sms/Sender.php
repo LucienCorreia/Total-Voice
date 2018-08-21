@@ -11,7 +11,7 @@ class Sender extends TotalVoice {
 	protected static $apiMethod = 'POST';
 
 	protected $message;
-	protected $number;
+	protected $phone;
 	protected $userResponse;
 	protected $multiSms;
 	protected $createdAt;
@@ -60,7 +60,7 @@ class Sender extends TotalVoice {
 						'access-token' => parent::$token
 					],
 					'json' => [
-						'numero_destino' => $this->number,
+						'numero_destino' => $this->phone,
 						'mensagem' => $this->message,
 						'resposta_usuario' => $this->userResponse,
 						'multi_sms' => $this->multiSms,
