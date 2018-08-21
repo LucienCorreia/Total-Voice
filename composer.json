@@ -1,0 +1,28 @@
+{
+	"name": "lucien-correia/total-voice",
+	"description": "TotalVoice SDK",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Lucien Correia",
+			"email": "lucienrc@outlook.com.br",
+			"homepage": "https://wadvice.com.br"
+        }
+    ],
+    "require": {
+		"php": ">7.1",
+        "guzzlehttp/guzzle": "^6.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"TotalVoice\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"TotalVoice\\Providers\\TotoalVoiceProvider"
+			]
+		}
+	}
+}
