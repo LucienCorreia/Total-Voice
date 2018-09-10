@@ -1,33 +1,33 @@
 {
-	"name": "lucien-correia/total-voice",
-	"description": "TotalVoice SDK",
-	"license": "MIT",
-        "authors": [
-            {
-                "name": "Lucien Correia",
-		"email": "lucienrc@outlook.com.br",
-		"homepage": "https://wadvice.com.br"
-            },
-	    {
-                "name": "Marcus Vinícius Campos",
-		"email": "campos.v.marcus@gmail.com",
-		"homepage": "https://github.com/marcus-campos"
-            }
-         ],
-         "require": {
-	     "php": ">7.0",
-             "guzzlehttp/guzzle": "^6.3"
-	  },
-	  "autoload": {
-	      "psr-4": {
-	          "TotalVoice\\": "src/"
-	       }
-	   },
-	   "extra": {
-	       "laravel": {
-	           "providers": [
-		        "TotalVoice\\Providers\\TotalVoiceProvider"
-		    ]
-		}
-	   }
+  "name": "lucien-correia/total-voice",
+  "description": "TotalVoice SDK",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lucien Correia",
+      "email": "lucienrc@outlook.com.br",
+      "homepage": "https://wadvice.com.br"
+    },
+    {
+      "name": "Marcus Vinícius Campos",
+      "email": "campos.v.marcus@gmail.com",
+      "homepage": "https://github.com/marcus-campos"
+    }
+  ],
+  "require": {
+    "php": ">7.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "TotalVoice\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TotalVoice\\Providers\\TotalVoiceProvider"
+      ]
+    }
+  }
 }

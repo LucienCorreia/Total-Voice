@@ -1,6 +1,6 @@
 <?php
 
-namespace TotalVoice\Chanels\Composto;
+namespace TotalVoice\Channels\Composto;
 
 use TotalVoice\TotalVoice;
 use GuzzleHttp\Client;

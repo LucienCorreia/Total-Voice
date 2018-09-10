@@ -114,3 +114,9 @@ $sender->phone('(99) 99999-9999', 'caller')
   ->send();
 
 ```
+
+## Contato
+
+Lucien Correia <lucienrc@outlook.com.br>
+
+Marcus Campos <campos.v.marcus@gmail.com>

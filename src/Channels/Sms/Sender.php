@@ -1,6 +1,6 @@
 <?php
 
-namespace TotalVoice\Chanels\Sms;
+namespace TotalVoice\Channels\Sms;
 
 use TotalVoice\TotalVoice;
 use GuzzleHttp\Client;
