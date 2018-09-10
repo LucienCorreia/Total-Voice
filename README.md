@@ -1,6 +1,6 @@
 # Total Voice
 
-![LGTM Grade](https://img.shields.io/badge/tag-v1.0-5a5.svg)
+![LGTM Grade](https://img.shields.io/badge/tag-v1.1-5a5.svg)
 
 ---
 
@@ -23,19 +23,13 @@ insira seu token de acesso em config.totalvoice.token
   
 ```
 
----
-
-#### Enviando SMS
-
-```php
-
-use TotalVoice\Chanels\Sms\Sender;
-
-$sender = new Sender();
-
-$sender->phone('(99) 99999-9999')->message('mensagem de texto')->send();
+ou no arquivo .env
 
 ```
+TOTAL_VOICE_TOKEN=TOKEN
+```
+
+---
 
 #### SMS : Envio de mensagens de texto via SMS
 
