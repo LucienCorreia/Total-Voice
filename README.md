@@ -35,7 +35,7 @@ TOTAL_VOICE_TOKEN=TOKEN
 
 ```php
 
-use TotalVoice\Chanels\Sms\Sender;
+use TotalVoice\Channels\Sms\Sender;
 
 $sender = new Sender();
 
@@ -50,7 +50,7 @@ Enviando um audio
 
 ```php
 
-use TotalVoice\Chanels\Audio\Sender;
+use TotalVoice\Channels\Audio\Sender;
 
 $sender = new Sender();
 
@@ -69,7 +69,7 @@ Enviando um audio
 
 ```php
 
-use TotalVoice\Chanels\Composto\Sender;
+use TotalVoice\Channels\Composto\Sender;
 
 $sender = new Sender();
 
@@ -85,7 +85,7 @@ Enviando um TTS
 
 ```php
 
-use TotalVoice\Chanels\Composto\Sender;
+use TotalVoice\Channels\Composto\Sender;
 
 $sender = new Sender();
 
@@ -102,7 +102,7 @@ Enviando uma transferêcia
 
 ```php
 
-use TotalVoice\Chanels\Composto\Sender;
+use TotalVoice\Channels\Composto\Sender;
 
 $sender = new Sender();
 
