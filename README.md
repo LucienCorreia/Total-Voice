@@ -1,6 +1,6 @@
 # Total Voice
 
-![LGTM Grade](https://img.shields.io/badge/tag-v1.1-5a5.svg)
+![LGTM Grade](https://img.shields.io/badge/tag-v1.3-5a5.svg)
 
 ---
 
