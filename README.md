@@ -4,15 +4,15 @@
 
 ---
 
-instale o pacote pelo composer
+Instale o pacote pelo composer
 
 `composer require lucien-correia/total-voice`
 
-rode vendor:publish e selecione o número corespondente
+Rode vendor:publish e selecione o número corespondente
 
 `php artisan vendor:publish`
 
-insira seu token de acesso em config.totalvoice.token
+Insira seu token de acesso em config.totalvoice.token
 
 ```php
 <?php
@@ -23,7 +23,7 @@ insira seu token de acesso em config.totalvoice.token
   
 ```
 
-ou no arquivo .env
+Ou no arquivo .env
 
 ```
 TOTAL_VOICE_TOKEN=TOKEN
