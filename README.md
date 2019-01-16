@@ -39,7 +39,9 @@ use TotalVoice\Channels\Sms\Sender;
 
 $sender = new Sender();
 
-$sender->phone('(99) 99999-9999')->message('mensagem de texto')->send();
+$sender->phone('(99) 99999-9999')
+  ->message('mensagem de texto')
+  ->send();
 
 ```
 
